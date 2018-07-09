@@ -14,13 +14,13 @@
 * Routes 
   * Avoid the `:except` option
   * Use the `:only` option to explicitly show exposed routes
-* Use ```raw()``` instead of ```html_safe``` when simply accepting data from field (most likely in views)
-* Use ```html_safe``` when building content explicitly (helpers, decorators etc.)
-* Do not  perform additional explicit formatting in the view layer - use decorators. So instead of ```for_display(decorated_resource.created_at)``` there should be just ```decorated_resource.created_at```
-* In relations, use names retrieved from actual classes, i.e. ```belongs_to :buyer, class_name: User.name```
-* [Keep both controllers and models slim] (http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models) 
-* **Follow [Law of Demeter] (http://pl.wikipedia.org/wiki/Prawo_Demeter)**
-* **Follow [Single Responsibility Principle] (http://pl.wikipedia.org/wiki/Zasada_jednej_odpowiedzialno%C5%9Bci)**
+* Use `raw()` instead of `html_safe` when simply accepting data from field (most likely in views)
+* Use `html_safe` when building content explicitly (helpers, decorators etc.)
+* Do not  perform additional explicit formatting in the view layer - use decorators. So instead of `for_display(decorated_resource.created_at)` there should be just `decorated_resource.created_at`
+* In relations, use names retrieved from actual classes, i.e. `belongs_to :buyer, class_name: User.name`
+* [Keep both controllers and models slim](http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models) 
+* Prefer following [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) where possible.
+* Prefer following [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) where possible.
 * Avoid bypassing validations with methods like `save(validate: false)`,
   `update_attribute`, and `toggle`.
 * Avoid instantiating more than one object in controllers.
