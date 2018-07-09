@@ -26,6 +26,7 @@ Subjective guide / list of resources related to learning ruby and rails
 - [Rails testing antipatterns](https://medium.com/selleo/rubyonrails-testing-antipatterns-part-1-d3e2a201502c)
 - [Using `private_constant`](https://medium.com/@blazejkosmowski/ruby-opinions-using-private-constant-592553ec49d2)
 - [Rubocop configuration](https://github.com/Selleo/dotfiles/tree/master/linters)
+- [RoR Best Practices](https://github.com/stevo/rails-dev-path/blob/master/ror-best-practices.md)
 
 ### Gems
 
