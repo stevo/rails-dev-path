@@ -69,6 +69,7 @@ Subjective guide / list of resources related to learning ruby and rails
 
 - [Pro GIT (book)](https://git-scm.com/book/en/v2)
 - [Curated list of GIT commands](https://medium.com/selleo/a-curated-list-of-git-commands-enough-to-keep-your-git-history-flat-288748998132)
+- [GIT Best Practices](https://github.com/stevo/rails-dev-path/blob/master/git-best-practices.md)
 
 ## Basic Supplemental Services
 
