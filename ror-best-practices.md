@@ -12,8 +12,8 @@
 * Keep your controllers RESTful (implement only default REST actions)
   * [This is why](http://jeromedalbert.com/how-dhh-organizes-his-rails-controllers/)
 * Routes 
- * Avoid the `:except` option
- * Use the `:only` option to explicitly show exposed routes
+  * Avoid the `:except` option
+  * Use the `:only` option to explicitly show exposed routes
 * Use ```raw()``` instead of ```html_safe``` when simply accepting data from field (most likely in views)
 * Use ```html_safe``` when building content explicitly (helpers, decorators etc.)
 * Do not  perform additional explicit formatting in the view layer - use decorators. So instead of ```for_display(decorated_resource.created_at)``` there should be just ```decorated_resource.created_at```
