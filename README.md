@@ -27,6 +27,7 @@ Subjective guide / list of resources related to learning ruby and rails
 - [Using `private_constant`](https://medium.com/@blazejkosmowski/ruby-opinions-using-private-constant-592553ec49d2)
 - [Rubocop configuration](https://github.com/Selleo/dotfiles/tree/master/linters)
 - [RoR Best Practices](https://github.com/stevo/rails-dev-path/blob/master/ror-best-practices.md)
+- [Keeping models slim](http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models)
 
 ### Gems
 
