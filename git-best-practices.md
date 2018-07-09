@@ -9,20 +9,20 @@
 ## Working with branches
 
 * Keep repository history flat by continuosly rebasing feature branches.
-* It is recommended to prefix branch names with owner initials, i.e. `bk-logic-for-accepting-external-events`
+* It is recommended to prefix branch names with owner initials and task id, i.e. `bk-1234567890-logic-for-accepting-external-events`
 
 ### New feature branch
 
 ```zsh
 git checkout master
 git pull
-git checkout -b xx-feature-name
+git checkout -b xx-task-id-feature-name
 ```
 
 ### Rebase with master (do it often and always before submitting PR)
 
 ```zsh
-git checkout xx-feature-name
+git checkout xx-task-id-feature-name
 git rebase -i HEAD~10 # squash/rename/reorder commits
 git pull --rebase origin master
 git push origin HEAD -f
@@ -34,10 +34,10 @@ git push origin HEAD -f
 # First rebase feature branch with master (look above)
 git checkout master
 git pull
-git merge xx-feature-name --ff-only
+git merge xx-task-id-feature-name --ff-only
 git push origin master
-git branch -d xx-feature-name
-git push origin :xx-feature-name
+git branch -d xx-task-id-feature-name
+git push origin :xx-task-id-feature-name
 ```
 
 ## Hotfixing
