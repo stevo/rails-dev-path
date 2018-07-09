@@ -1,6 +1,6 @@
 # rails-dev-path
 
-Subjective guide / list of resources related to learning ruby and rails
+Subjective, curated list of resources related to learning [ruby](https://www.ruby-lang.org/) and [rails](https://rubyonrails.org/)
 
 ## Ruby learning resources
 
