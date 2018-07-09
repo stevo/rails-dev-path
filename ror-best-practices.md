@@ -5,10 +5,6 @@
 * Do not introduce model callbacks that have external dependencies
   * [This is why](http://samuelmullen.com/2013/05/the-problem-with-rails-callbacks/)
   * Use `FormObject` or `ServiceObject` patterns (some examples [here](http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/))
-* When integrating with external services or libraries, prefer using Facade Pattern (sometimes referred to as Wrapper Pattern)
-  * [Some details](https://en.wikipedia.org/wiki/Facade_pattern)
-  * It abstracts away communication through API, what makes writing specs easier (no need to use `VCR` that much or at all)
-  * It makes interacting with external services and libraries more comprehendable and readable
 * Keep your controllers RESTful (implement only default REST actions)
   * [This is why](http://jeromedalbert.com/how-dhh-organizes-his-rails-controllers/)
 * Routes 
