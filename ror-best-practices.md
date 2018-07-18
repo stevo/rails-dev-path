@@ -10,8 +10,6 @@
 * Routes 
   * Avoid the `:except` option
   * Use the `:only` option to explicitly show exposed routes
-* Use `raw()` instead of `html_safe` when simply accepting data from field (most likely in views)
-* Use `html_safe` when building content explicitly (helpers, decorators etc.)
 * Do not  perform additional explicit formatting in the view layer - use decorators. So instead of `for_display(decorated_resource.created_at)` there should be just `decorated_resource.created_at`
 * In relations, use names retrieved from actual classes, i.e. `belongs_to :buyer, class_name: User.name`
 * [Keep both controllers and models slim](http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models) 
