@@ -23,5 +23,5 @@
 * Don't reference a model class directly from a view.
 * If there are default values, set them in migrations.
 * Keep `db/schema.rb` or `db/development_structure.sql` under version control.
-* Avoid using ffaker without sequences (ffaker CAN generate duplicate values)
+* Avoid using ffaker in specs
 * Do not focus on speed or overly DRY code in specs
