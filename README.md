@@ -6,6 +6,7 @@ Subjective, curated list of resources related to learning [ruby](https://www.rub
 
 - [Ruby Monk](https://rubymonk.com/)
 - [Programming Ruby (docs / book)](http://ruby-doc.com/docs/ProgrammingRuby/)
+- [SOLID](https://robots.thoughtbot.com/back-to-basics-solid)
 
 ## Ruby on Rails learning resources
 
