@@ -14,6 +14,7 @@ Subjective, curated list of resources related to learning [ruby](https://www.rub
 - [Rails for Zombies (screencasts)](https://www.pluralsight.com/courses/code-school-rails-for-zombies)
 - [Agile Web Development with Rails (book)](https://pragprog.com/book/rails51/agile-web-development-with-rails-5-1)
 - [Effective Testing with with RSpec 3 (book)](https://pragprog.com/book/rspec3/effective-testing-with-rspec-3)
+- [The Odin Project](https://www.theodinproject.com/)
 
 ### Conventions
 
